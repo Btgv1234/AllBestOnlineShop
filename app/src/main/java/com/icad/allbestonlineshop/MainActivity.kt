@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
         supportActionBar?.hide()
 
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, Login_Activity::class.java)
         Thread(Runnable {
             try {
                 Thread.sleep(3000)
