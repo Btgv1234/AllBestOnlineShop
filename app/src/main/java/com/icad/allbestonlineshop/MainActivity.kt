@@ -3,6 +3,7 @@ package com.icad.allbestonlineshop
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import com.icad.allbestonlineshop.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -14,17 +15,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
         supportActionBar?.hide()
 
-        val intent = Intent(this, Login_Activity::class.java)
-        Thread(Runnable {
-            try {
-                Thread.sleep(3000)
-            } catch (e: InterruptedException) {
-                e.printStackTrace()
-            }
-            runOnUiThread {
-                startActivity(intent)
-                finish()
-            }
-        }).start()
+        Handler().postDelayed({
+            val intent =Intent(this@MainActivity, Login_Activity::class.java)
+            startActivity(intent)
+        }, 3000)
     }
 }
