@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Kharisma Risyaad/OneDrive/Documents/AndroidStudio/Android/AllBestOnlineShop2/app/src/main/res/layout/activity_login.xml" value="0.19519927536231885" />
-        <entry key="..\:/Users/Kharisma Risyaad/OneDrive/Documents/AndroidStudio/Android/AllBestOnlineShop2/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/Kharisma Risyaad/OneDrive/Documents/AndroidStudio/Android/AllBestOnlineShop2/app/src/main/res/layout/activity_main.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Lenovo/Downloads/AllBestOnlineShop/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/Downloads/AllBestOnlineShop/app/src/main/res/layout/activity_klasemen.xml" value="0.33" />
+        <entry key="..\:/Users/Lenovo/Downloads/AllBestOnlineShop/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/Downloads/AllBestOnlineShop/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>

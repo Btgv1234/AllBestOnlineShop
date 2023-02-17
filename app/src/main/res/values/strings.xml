@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">AllBestOnlineShop</string>
+    <string name="gotohome">Go to Home</string>
+    <string name="premierleague">Premier League</string>
+    <string name="laliga">La Liga</string>
+    <string name="bundesliga">Bundesliga</string>
 </resources>
